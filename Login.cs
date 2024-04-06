@@ -9,6 +9,7 @@ namespace prog1ef
 {
     internal class Login
     {
+        public int Id { get; set; } 
         [Required]
         public string user { get; set; }
         [Required]

@@ -13,7 +13,7 @@ namespace prog1ef
         [Required]
         public int Id { get; set; }
        // [Required]
-        //public string Name { get; set; }
+        public string Name { get; set; }
         [Required]
         public string Email { get; set; }
         public int Numberphone { get; set; }
@@ -23,7 +23,7 @@ namespace prog1ef
         public long SSN { get; set; }
         [Required]
         public string sheft { get; set; }
-        [ForeignKey("")]
+        
         public virtual Department_and_name_manager dep { get; set; }
         public virtual Money Money { get; set; }
 

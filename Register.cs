@@ -9,6 +9,7 @@ namespace prog1ef
 {
     internal class Register
     {
+        public int Id { get; set; }
         [Required (ErrorMessage ="Plase Enter 10 char...!"), MaxLength(10)]
         public string FirstName { get; set; }
         [Required (ErrorMessage ="Plase Enter 10 char ...!"), MaxLength(10)]
@@ -29,7 +30,7 @@ namespace prog1ef
         public string confirmpaswword { get; set; }
         public DateTime DateTime { get; set; }
 
-        public virtual Login Login { get; set; }
+        //public virtual Login Login { get; set; }
 
 
 

@@ -11,7 +11,7 @@ namespace prog1ef
         public int ID { get; set; }
         public long SSN { get; set; }
         public int blus_salary { get; set; }
-        public virtual Employee Employees { get; set; }
+       // public virtual Employee Employees { get; set; }
 
 
         
